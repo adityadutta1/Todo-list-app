@@ -72,7 +72,7 @@ app.post('/',(req,res,next)=>{
                     next(error);
                 }
                 else
-                    res.json({result : result, document : result.ops[0],msg : "Successfully inserted Todo!!!",error : null});
+                    res.json({result : result, document : result.ops[0],msg : "Hola!!!  ,    Successfully inserted Todo !!!",error : null});
             });
         }
     })    
